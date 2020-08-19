@@ -1,5 +1,0 @@
-apply plugin: 'com.github.dcendents.android-maven'
-
-group = 'com.lsh'
-apply from: 'install.gradle'
-apply from: 'bintray.gradle'
