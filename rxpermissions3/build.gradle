@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
 apply from: 'bintray.gradle'
 
 android {
@@ -26,7 +27,11 @@ dependencies {
     implementation rootProject.ext.androidXFragment
     implementation rootProject.ext.androidXAnnotation
     implementation rootProject.ext.androidXAppcompat
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
 
-// Commented to use JitPack instead of bintray
 

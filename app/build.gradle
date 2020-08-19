@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
@@ -19,10 +20,11 @@ android {
 
 dependencies {
 //    implementation project(':rxpermissions3')
-    api 'com.lsh.rxpermissions3:rxpermissions3:1.0.1'
+    api 'com.lsh.rxpermissions3:rxpermissions3:1.0.2'
 
     implementation 'com.jakewharton.rxbinding4:rxbinding:4.0.0'
     implementation rootProject.ext.androidXAppcompat
-
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
 }
