@@ -1,0 +1,52 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.0.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.5'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext {
+    minSdkVersion = 21
+    compileSdkVersion = 29
+    targetSdkVersion = 26
+
+    rxJava = 'io.reactivex.rxjava3:rxjava:3.0.4'
+
+
+    androidXFragment = 'androidx.fragment:fragment:1.2.5'
+    androidXAnnotation = 'androidx.annotation:annotation:1.0.0'
+    androidXAppcompat =  'androidx.appcompat:appcompat:1.0.2'
+
+    bintrayRepo = 'utils'
+    bintrayName = 'RxPermissions3'
+
+    publishedGroupId = 'com.lsh.rxpermissions3'
+    artifact = 'rxpermissions'
+    libraryName = 'RxPermissions3'
+    libraryVersion = '1.0.0'
+
+    libraryDescription = 'A wrapper for Android 6.0 permissions'
+
+    siteUrl = 'https://github.com/ewgcat/RxPermissions3'
+    gitUrl = 'https://github.com/ewgcat/RxPermissions3.git'
+
+    developerId = 'lishuaihua'
+    developerName = 'lishuaihua'
+    developerEmail = 'lsh199032@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
