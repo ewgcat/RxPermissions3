@@ -6,6 +6,7 @@ class Permission {
     val name: String
     @JvmField
     val granted: Boolean
+    @JvmField
     val shouldShowRequestPermissionRationale: Boolean
 
     @JvmOverloads

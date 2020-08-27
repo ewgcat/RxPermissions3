@@ -20,7 +20,8 @@ android {
 
 dependencies {
 //    implementation project(':rxpermissions3')
-    api 'com.lsh.rxpermissions3:rxpermissions3:1.0.2'
+//    api 'com.lsh.rxpermissions3:rxpermissions3:1.0.6'
+    api 'com.github.ewgcat:RxPermissions3:1.0.1'
 
     implementation 'com.jakewharton.rxbinding4:rxbinding:4.0.0'
     implementation rootProject.ext.androidXAppcompat
