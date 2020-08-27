@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ewgcat:RxPermissions3:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/534a4dceef83e7d61e6a316244bdee63/jetified-RxPermissions3-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/534a4dceef83e7d61e6a316244bdee63/jetified-RxPermissions3-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/534a4dceef83e7d61e6a316244bdee63/jetified-RxPermissions3-1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ewgcat/RxPermissions3/1.0.2/68fc6d62acc2830f663ad75cc6654c7b330290d6/RxPermissions3-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
